@@ -15,12 +15,9 @@ export default function Orders({ order }) {
                         <table className="table mb-0 align-middle table-borderless cmw-30">
                             <thead className="align-middle">
                                 <tr className="text-muted">
-                                    <td className="border-0">ID</td>
-                                    <td className="border-0">Date</td>
-                                    <td className="border-0">You Paid</td>
-                                    <td className="border-0">Pay Status</td>
-                                    <td className="border-0">You Receive</td>
-                                    <td className="border-0">Send Status</td>
+                                    <td className="border-0">User ID</td>
+                                    <td className="border-0">Package ID</td>
+                                    <td className="border-0">Package Price</td>
                                 </tr>
                             </thead>
                             <tbody>
