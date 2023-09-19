@@ -20,7 +20,6 @@ import {
 import PLIABI from "../../contracts/abi.json"
 import FDCABI from "../../contracts/FDC.json"
 
-import { ethers } from 'ethers'
 const yup = require('yup')
 
 
@@ -139,6 +138,9 @@ export default function Landing() {
       'Success',
       'Insurance Purchase Done Successfully',
       'Okay',
+      () => {
+        getPLIBalance()
+      }
     );
 
   }
@@ -161,7 +163,7 @@ export default function Landing() {
   return (
     <BaseLayout>
       <div className="container-xl">
-        <div className="row">
+        <div className="row d-flex justify-content-center">
           <div className="col-md-12 col-lg-4">
             <div className="card quick-trad">
 
@@ -274,7 +276,7 @@ export default function Landing() {
               </div>
             </div>
           </div>
-          <Orders />
+
 
         </div>
       </div>

@@ -9,13 +9,10 @@ const Header = () => {
             <div className="header-left d-flex">
                 <img src="https://oracles.goplugin.co/assets/media/logos/plugin-logo.png" style={{ height: "50px" }} />
             </div>
-            <ul className="header-right">
-
-                <li className="dropdown show profile">
-
-                </li>
-
-            </ul>
+            <div className="header-center d-flex">
+                <h1>XDC COE</h1>
+            </div>
+            <ul className="header-right"></ul>
         </div>
     </header>
 
